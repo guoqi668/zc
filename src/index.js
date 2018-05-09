@@ -1,4 +1,4 @@
-// 入口文件
+// 入口文件。
 import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
