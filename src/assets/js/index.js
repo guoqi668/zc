@@ -1,4 +1,4 @@
-function recal(doc, win) {
+function recalc(doc, win) {
     let docEl = doc.documentElement;
     let resizeEvt = 'orientationchange' in win ? 'orientationchange' : 'resize';
     let recalc = function () {
@@ -10,4 +10,4 @@ function recal(doc, win) {
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false)
 }
-export default recal(document, window);
+export default recalc(document, window);
